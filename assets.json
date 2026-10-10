@@ -1,0 +1,10 @@
+{
+  "_note": "Every Little Nightmares file the mod reads, by path under {game:<slug>}. Nothing is copied or uploaded. Fill by inspecting the installed game; the format may need community extraction tools.",
+  "columns": ["id","pathUnderGameFolder","kind","usedBy","verified"],
+  "rows": [
+    {"id":"janitor_model","pathUnderGameFolder":"TBD","kind":"model","usedBy":["creatures.janitor"],"verified":false},
+    {"id":"janitor_anims","pathUnderGameFolder":"TBD","kind":"animation","usedBy":["creatures.janitor"],"verified":false},
+    {"id":"ambience_loop","pathUnderGameFolder":"TBD","kind":"audio","usedBy":["dread"],"verified":false},
+    {"id":"catch_sting","pathUnderGameFolder":"TBD","kind":"audio","usedBy":["creatures.janitor"],"verified":false}
+  ]
+}

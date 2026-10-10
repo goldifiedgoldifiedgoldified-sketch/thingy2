@@ -1,0 +1,10 @@
+{
+  "_note": "Draft only. Not validated: Melty tools were not available. Run inspect_package, validate_recipe and one_click_check before submitting.",
+  "title": "Deltarune: Something in the Dark",
+  "games": [
+    {"slug":"deltarune","role":"primary"},
+    {"slug":"<little-nightmares custom- slug from search_games>","role":"companion"}
+  ],
+  "launchArgsHint": "Pass {game:<slug>} to the mod so it reads Little Nightmares files from the player's install",
+  "multiplayer": null
+}

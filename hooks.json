@@ -1,0 +1,11 @@
+{
+  "_note": "Deltarune (GameMaker) hook points. 'gmlTarget' must be found by inspecting data.win with the engine community's tools (e.g. UndertaleModTool). Needs a bundled, shareable patcher/loader since Melty has none for Deltarune.",
+  "columns": ["id","purpose","gmlTarget","trigger","reads","writes","verified"],
+  "rows": [
+    {"id":"timer_start","purpose":"Start the 60s countdown after a normal start","gmlTarget":"TBD (first overworld room Create event)","trigger":"room_start","reads":["creatures.janitor.spawnDelaySec"],"writes":["state.timerSec"],"verified":false},
+    {"id":"spawn","purpose":"Spawn the Janitor away from the party","gmlTarget":"TBD","trigger":"timer expires","reads":["creatures.janitor"],"writes":["state.janitorX","state.janitorY"],"verified":false},
+    {"id":"chase_step","purpose":"Move creature toward party each step","gmlTarget":"TBD (party leader obj Step event)","trigger":"every step","reads":["creatures.janitor.speedPxPerSec","creatures.janitor.sightRangePx"],"writes":["state.distance"],"verified":false},
+    {"id":"dread_apply","purpose":"Apply dread band to audio, vignette, party speed","gmlTarget":"TBD","trigger":"every step","reads":["dread","state.distance"],"writes":["audio","draw","party speed"],"verified":false},
+    {"id":"catch","purpose":"Play catch sequence and end the run","gmlTarget":"TBD","trigger":"distance <= catch radius","reads":["creatures.janitor.sourceAnimCatch","creatures.janitor.sourceSoundCatch"],"writes":["game over state"],"verified":false}
+  ]
+}

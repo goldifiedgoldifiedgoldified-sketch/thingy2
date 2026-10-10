@@ -1,0 +1,10 @@
+{
+  "_note": "Dread level is driven by creature distance. Each row is a threshold band.",
+  "columns": ["id","maxDistancePx","musicDeltaruneVolume","musicLNAmbienceVolume","vignetteStrength","partySpeedMult","heartbeat","verified"],
+  "rows": [
+    {"id":"calm","maxDistancePx":9999,"musicDeltaruneVolume":1.0,"musicLNAmbienceVolume":0.0,"vignetteStrength":0.0,"partySpeedMult":1.0,"heartbeat":false,"verified":false},
+    {"id":"uneasy","maxDistancePx":600,"musicDeltaruneVolume":0.5,"musicLNAmbienceVolume":0.4,"vignetteStrength":0.25,"partySpeedMult":1.0,"heartbeat":false,"verified":false},
+    {"id":"hunted","maxDistancePx":300,"musicDeltaruneVolume":0.1,"musicLNAmbienceVolume":0.8,"vignetteStrength":0.55,"partySpeedMult":0.9,"heartbeat":true,"verified":false},
+    {"id":"cornered","maxDistancePx":120,"musicDeltaruneVolume":0.0,"musicLNAmbienceVolume":1.0,"vignetteStrength":0.85,"partySpeedMult":0.75,"heartbeat":true,"verified":false}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "_note": "One row per creature. 'TBD' = must be filled by inspecting the player's installed Little Nightmares. Never copy these files; read from {game:<little-nightmares-slug>}.",
+  "columns": ["id","displayName","sourceModel","sourceAnimWalk","sourceAnimChase","sourceAnimCatch","sourceSoundIdle","sourceSoundCatch","speedPxPerSec","spawnDelaySec","sightRangePx","giveUpSec","verified"],
+  "rows": [
+    {"id":"janitor","displayName":"The Janitor","sourceModel":"TBD","sourceAnimWalk":"TBD","sourceAnimChase":"TBD","sourceAnimCatch":"TBD","sourceSoundIdle":"TBD","sourceSoundCatch":"TBD","speedPxPerSec":40,"spawnDelaySec":60,"sightRangePx":320,"giveUpSec":45,"verified":false}
+  ]
+}
